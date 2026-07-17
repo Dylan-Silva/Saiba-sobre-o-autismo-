@@ -9,7 +9,17 @@
 <title>💙 Saiba Tudo Sobre o Autismo</title>
 
 <style>
-
+.topo{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#1976d2;
+    color:white;
+    padding:12px 18px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:22px;
+}
 *{
     margin:0;
     padding:0;
@@ -36,8 +46,8 @@ nav{
 nav ul{
     display:flex;
     justify-content:center;
-    list-style:none;
     flex-wrap:wrap;
+    list-style:none;
 }
 
 nav li{
@@ -67,30 +77,24 @@ nav a:hover{
     background-size:cover;
     background-position:center;
 
-    color:white;
-    text-align:center;
-
     padding:120px 20px;
 
+    text-align:center;
+    color:white;
 }
 
 
 .banner h1{
-
     font-size:48px;
     margin-bottom:20px;
-
 }
 
 
 .banner p{
-
-    max-width:700px;
+    max-width:750px;
     margin:auto;
-
     font-size:22px;
     line-height:1.8;
-
 }
 
 
@@ -163,7 +167,59 @@ p{
 }
 
 
-/* RODAPÉ */
+/* CARTÕES */
+
+.cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+
+.card{
+
+    background:#e3f2fd;
+
+    width:280px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.15);
+
+}
+
+
+.card h3{
+
+    color:#1976d2;
+
+    text-align:center;
+
+}
+
+
+/* LISTAS */
+
+ul{
+
+    max-width:700px;
+
+    margin:20px auto;
+
+    line-height:1.8;
+
+}
+
+
+/* FOOTER */
 
 footer{
 
@@ -177,6 +233,29 @@ footer{
 
 }
 
+
+/* CELULAR */
+
+@media(max-width:700px){
+
+.banner h1{
+    font-size:32px;
+}
+
+.banner p{
+    font-size:18px;
+}
+
+nav ul{
+    flex-direction:column;
+    align-items:center;
+}
+
+.card{
+    width:90%;
+}
+
+}
 
 </style>
 
@@ -194,12 +273,17 @@ footer{
 
 <li><a href="#oquee">O que é?</a></li>
 
-<li><a href="#curiosidades">Curiosidades</a></li>
+<li><a href="#historia">História</a></li>
+
+<li><a href="#sinais">Sinais</a></li>
 
 <li><a href="#diagnostico">Diagnóstico</a></li>
 
-<li><a href="#contato">Contato</a></li>
+<li><a href="#curiosidades">Curiosidades</a></li>
 
+<li><a href="#inclusao">Inclusão</a></li>
+
+<li><a href="#mitos">Mitos</a></li>
 </ul>
 
 </nav>
@@ -213,11 +297,9 @@ footer{
 
 
 <p>
-
 Aprenda sobre o Transtorno do Espectro Autista (TEA),
-conheça características, curiosidades, diagnóstico
-e informações importantes.
-
+suas características, sinais, diagnóstico,
+curiosidades e a importância da inclusão.
 </p>
 
 
@@ -233,19 +315,16 @@ Começar
 <main>
 
 
+
 <section id="inicio">
 
-<h2>Bem-vindo!</h2>
-
+<h2>💙 Bem-vindo!</h2>
 
 <p>
-
-Este site foi criado para compartilhar informações
-sobre o autismo de forma simples, organizada e fácil
-de entender.
-
+Este site foi criado para explicar o autismo de forma simples,
+organizada e educativa, ajudando mais pessoas a conhecerem
+e respeitarem o Transtorno do Espectro Autista.
 </p>
-
 
 </section>
 
@@ -253,59 +332,39 @@ de entender.
 
 <section id="oquee">
 
-<h2>💙 O que é o Autismo?</h2>
-
+<h2>🧩 O que é o Autismo?</h2>
 
 <p>
-
-O Transtorno do Espectro Autista (TEA) é uma condição
-do neurodesenvolvimento que pode influenciar a comunicação,
-a interação social e o comportamento.
-
-Cada pessoa autista possui características únicas,
-por isso o autismo é chamado de espectro.
-
+O Transtorno do Espectro Autista (TEA) é uma condição do
+neurodesenvolvimento que pode influenciar a comunicação,
+a interação social e alguns comportamentos.
 </p>
 
+<p>
+O autismo é chamado de espectro porque existem diferentes
+formas de manifestação. Cada pessoa autista possui
+características, habilidades e necessidades únicas.
+</p>
 
 </section>
-
-
-</main>
-
-
-
-<footer id="contato">
-
-
-<p>
-💙 Site educativo sobre o Transtorno do Espectro Autista.
-</p>
-
-
-</footer>
-
-
-</body>
-
-</html>
 <section id="historia">
 
 <h2>📜 História do Autismo</h2>
 
 <p>
-O termo autismo foi utilizado pela primeira vez em 1911 pelo psiquiatra suíço Eugen Bleuler. Na época, o conceito era diferente do que conhecemos atualmente.
+O termo "autismo" foi utilizado pela primeira vez em 1911 pelo psiquiatra suíço Eugen Bleuler. Na época, o significado era diferente do que conhecemos atualmente.
 </p>
 
 <p>
-Com o passar dos anos, pesquisadores estudaram mais sobre o desenvolvimento humano e descobriram que o autismo apresenta diferentes características em cada pessoa. Por isso, atualmente é chamado de Transtorno do Espectro Autista (TEA).
+Com o avanço das pesquisas, os cientistas passaram a entender melhor que o autismo apresenta diferentes características em cada pessoa.
 </p>
 
 <p>
-Hoje, a ciência entende que o autismo faz parte da diversidade humana e que o respeito e a inclusão são fundamentais para melhorar a qualidade de vida das pessoas autistas.
+Atualmente, o autismo é chamado de Transtorno do Espectro Autista (TEA), reconhecendo que cada pessoa possui uma forma única de viver e se desenvolver.
 </p>
 
 </section>
+
 
 
 <section id="niveis">
@@ -313,7 +372,7 @@ Hoje, a ciência entende que o autismo faz parte da diversidade humana e que o r
 <h2>🧩 Níveis de suporte do autismo</h2>
 
 <p>
-O autismo pode apresentar diferentes necessidades de apoio. Por isso, os profissionais classificam o TEA em três níveis de suporte.
+O autismo pode apresentar diferentes necessidades de apoio. Por isso, os profissionais podem classificar o nível de suporte necessário.
 </p>
 
 
@@ -322,10 +381,10 @@ O autismo pode apresentar diferentes necessidades de apoio. Por isso, os profiss
 
 <div class="card">
 
-<h3>Nível 1 - Pouco suporte</h3>
+<h3>Nível 1</h3>
 
 <p>
-A pessoa pode precisar de algum apoio principalmente em situações sociais, comunicação ou organização da rotina.
+A pessoa pode precisar de pouco suporte, principalmente em situações sociais, comunicação ou organização da rotina.
 </p>
 
 </div>
@@ -333,10 +392,10 @@ A pessoa pode precisar de algum apoio principalmente em situações sociais, com
 
 <div class="card">
 
-<h3>Nível 2 - Suporte moderado</h3>
+<h3>Nível 2</h3>
 
 <p>
-A pessoa geralmente necessita de mais ajuda para comunicação, mudanças de rotina e atividades do dia a dia.
+A pessoa pode precisar de suporte moderado para comunicação, mudanças de rotina e atividades do dia a dia.
 </p>
 
 </div>
@@ -344,10 +403,10 @@ A pessoa geralmente necessita de mais ajuda para comunicação, mudanças de rot
 
 <div class="card">
 
-<h3>Nível 3 - Muito suporte</h3>
+<h3>Nível 3</h3>
 
 <p>
-A pessoa necessita de apoio intenso em várias áreas da vida, incluindo comunicação e cuidados diários.
+A pessoa pode precisar de suporte intenso em várias áreas, incluindo comunicação e cuidados diários.
 </p>
 
 </div>
@@ -358,112 +417,48 @@ A pessoa necessita de apoio intenso em várias áreas da vida, incluindo comunic
 </section>
 
 
-<section id="criancas">
 
-<h2>👶 Sinais que podem aparecer em crianças</h2>
+<section id="sinais">
+
+<h2>👶🧑 Sinais que podem aparecer</h2>
 
 <ul>
 
-<li>Dificuldade para iniciar ou manter interações sociais.</li>
+<li>Dificuldade em algumas interações sociais.</li>
 
-<li>Atrasos ou diferenças no desenvolvimento da fala.</li>
+<li>Diferenças na comunicação.</li>
 
-<li>Maior interesse por alguns assuntos ou objetos específicos.</li>
+<li>Interesses muito intensos em determinados assuntos.</li>
 
-<li>Preferência por rotinas e dificuldade com mudanças.</li>
+<li>Necessidade de rotina e dificuldade com mudanças.</li>
 
-<li>Sensibilidade diferente a sons, luzes, cheiros ou texturas.</li>
+<li>Sensibilidade diferente a sons, luzes ou texturas.</li>
 
-<li>Formas diferentes de brincar ou se comunicar.</li>
+<li>Formas diferentes de demonstrar emoções.</li>
 
 </ul>
 
 </section>
 
-
-<section id="adolescentes">
-
-<h2>🧑 Sinais em adolescentes e adultos</h2>
-
-<ul>
-
-<li>Dificuldade para interpretar algumas situações sociais.</li>
-
-<li>Sensação de cansaço após muitas interações sociais.</li>
-
-<li>Interesses muito intensos em determinados temas.</li>
-
-<li>Necessidade de organização e previsibilidade.</li>
-
-<li>Sensibilidade a estímulos do ambiente.</li>
-
-<li>Forma diferente de demonstrar emoções ou pensamentos.</li>
-
-</ul>
-
-</section>
-<section id="saber">
-
-<h2>❓ Como saber se você pode ter autismo?</h2>
-
-<p>
-Algumas pessoas percebem características que podem estar relacionadas ao autismo, como dificuldades em algumas situações sociais, sensibilidade a sons ou luzes, necessidade de rotina ou interesses muito específicos.
-</p>
-
-<p>
-Porém, ter uma ou algumas dessas características não significa necessariamente que a pessoa seja autista. Outras condições ou características pessoais também podem causar situações parecidas.
-</p>
-
-<p>
-Se você acredita que pode estar no espectro autista, o ideal é conversar com seus responsáveis e procurar um profissional especializado, como um psicólogo ou médico, para uma avaliação adequada.
-</p>
-
-</section>
-
-
-<section id="diagnostico">
-
-<h2>🩺 Como é feito o diagnóstico?</h2>
-
-<p>
-O diagnóstico do autismo é realizado por profissionais especializados através de uma avaliação completa.
-</p>
-
-<ul>
-
-<li>Observação do comportamento e da comunicação.</li>
-
-<li>Análise do desenvolvimento da pessoa desde a infância.</li>
-
-<li>Conversas com a pessoa e familiares.</li>
-
-<li>Avaliação das dificuldades e habilidades individuais.</li>
-
-</ul>
-
-<p>
-Não existe um exame único que descubra o autismo. O diagnóstico considera várias informações para entender melhor cada pessoa.
-</p>
-
-</section>
-
-
-<section id="inclusao">
+    <section id="inclusao">
 
 <h2>🤝 Inclusão e respeito</h2>
 
 <p>
-A inclusão é importante para que pessoas autistas tenham oportunidades de estudar, trabalhar, fazer amizades e participar da sociedade.
+A inclusão é importante para que pessoas autistas tenham oportunidades
+de estudar, trabalhar, criar amizades e participar da sociedade.
 </p>
 
 <p>
-Pequenas atitudes, como ouvir, respeitar diferenças e oferecer apoio quando necessário, ajudam a criar ambientes mais acolhedores.
+Respeitar as diferenças, ouvir e oferecer apoio quando necessário ajuda
+a construir um ambiente mais acolhedor para todos.
 </p>
 
 </section>
 
 
-<section id="apoio">
+
+<section id="ajuda">
 
 <h2>💡 Como ajudar uma pessoa autista?</h2>
 
@@ -477,69 +472,106 @@ Pequenas atitudes, como ouvir, respeitar diferenças e oferecer apoio quando nec
 
 <li>Ajude a criar ambientes confortáveis e organizados.</li>
 
-<li>Valorize as habilidades e interesses da pessoa.</li>
+<li>Valorize habilidades, interesses e conquistas.</li>
 
 </ul>
 
 </section>
+
+
+
+
 <section id="mitos">
 
 <h2>📚 Mitos e Verdades</h2>
 
+
 <div class="cards">
 
+
 <div class="card">
+
 <h3>❌ Mito</h3>
+
 <p>
 O autismo é uma doença.
 </p>
+
 </div>
 
+
+
 <div class="card">
+
 <h3>✅ Verdade</h3>
+
 <p>
 O autismo é uma condição do neurodesenvolvimento e faz parte da diversidade humana.
 </p>
+
 </div>
 
 
+
 <div class="card">
+
 <h3>❌ Mito</h3>
+
 <p>
-Todas as pessoas autistas possuem as mesmas características.
+Todas as pessoas autistas são iguais.
 </p>
+
 </div>
 
+
+
 <div class="card">
+
 <h3>✅ Verdade</h3>
+
 <p>
 Cada pessoa autista possui características, habilidades e necessidades diferentes.
 </p>
+
 </div>
 
 
+
 <div class="card">
+
 <h3>❌ Mito</h3>
+
 <p>
 Vacinas causam autismo.
 </p>
+
 </div>
 
+
+
 <div class="card">
+
 <h3>✅ Verdade</h3>
+
 <p>
 Pesquisas científicas mostram que vacinas não causam autismo.
 </p>
+
 </div>
+
 
 </div>
 
 </section>
+
+
+
 
 
 <section id="curiosidades">
 
 <h2>🌎 Curiosidades sobre o Autismo</h2>
+
 
 <ul>
 
@@ -547,38 +579,40 @@ Pesquisas científicas mostram que vacinas não causam autismo.
 
 <li>🧩 Cada pessoa autista possui uma experiência única.</li>
 
-<li>🎨 Algumas pessoas autistas possuem grande habilidade em áreas como arte, música, matemática ou tecnologia.</li>
+<li>🎨 Algumas pessoas autistas possuem habilidades especiais em áreas como arte, música, matemática ou tecnologia.</li>
 
-<li>🧠 Algumas pessoas possuem memória muito desenvolvida para assuntos de interesse.</li>
-
-<li>📅 O Dia Mundial da Conscientização do Autismo é celebrado em 2 de abril.</li>
+<li>📅 O Dia Mundial da Conscientização do Autismo acontece em 2 de abril.</li>
 
 <li>🌎 Existem pessoas autistas em todos os países do mundo.</li>
 
-<li>🎧 Algumas pessoas utilizam fones para lidar melhor com sons intensos.</li>
+<li>🎧 Algumas pessoas utilizam estratégias para lidar melhor com sons intensos.</li>
 
-<li>📚 O autismo pode ser identificado na infância, mas algumas pessoas recebem diagnóstico apenas na adolescência ou vida adulta.</li>
+<li>📚 Algumas pessoas recebem diagnóstico apenas na adolescência ou na vida adulta.</li>
 
-<li>🤝 A inclusão ajuda pessoas autistas a participarem mais da sociedade.</li>
+<li>🏫 A inclusão escolar pode ajudar estudantes autistas no aprendizado.</li>
 
-<li>💻 Muitas pessoas autistas desenvolvem habilidades em tecnologia e áreas criativas.</li>
+<li>🤝 O respeito é fundamental para melhorar a convivência.</li>
 
-<li>🏫 A adaptação escolar pode ajudar no aprendizado de estudantes autistas.</li>
-
-<li>❤️ Respeito e compreensão são importantes para melhorar a convivência.</li>
+<li>💻 Muitas pessoas autistas desenvolvem habilidades em áreas criativas e tecnológicas.</li>
 
 </ul>
 
 </section>
 
 
+
+
+
 <section id="fontes">
 
 <h2>🔗 Saiba mais</h2>
 
+
 <p>
-Para aprender mais sobre o autismo, procure informações em fontes confiáveis, como organizações de saúde, universidades e instituições especializadas.
+Para aprender mais sobre o autismo, procure informações em fontes confiáveis,
+como organizações de saúde, universidades e instituições especializadas.
 </p>
+
 
 <ul>
 
@@ -590,71 +624,35 @@ Para aprender mais sobre o autismo, procure informações em fontes confiáveis,
 
 </ul>
 
+
 </section>
-/* ANIMAÇÃO DAS SEÇÕES */
-
-section{
-    animation: aparecer 0.8s ease;
-}
-
-@keyframes aparecer{
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
 
 
-/* IMAGENS */
-
-.imagem-info{
-    width:100%;
-    max-width:500px;
-    border-radius:15px;
-    display:block;
-    margin:20px auto;
-}
+</main>
 
 
-/* BOTÃO VOLTAR AO TOPO */
 
-.topo{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background:#1976d2;
-    color:white;
-    padding:12px 18px;
-    border-radius:50%;
-    text-decoration:none;
-    font-size:22px;
-}
+<a href="#" class="topo">⬆</a>
 
 
-/* CELULAR */
 
-@media(max-width:700px){
+<footer>
 
-    .banner h1{
-        font-size:32px;
-    }
+<h3>💙 Saiba Tudo Sobre o Autismo</h3>
 
-    .banner p{
-        font-size:18px;
-    }
+<p>
+Site educativo criado para compartilhar informações,
+conscientizar e promover respeito às pessoas autistas.
+</p>
 
-    nav ul{
-        flex-direction:column;
-        align-items:center;
-    }
+<p>
+© 2026 - Todos os direitos reservados.
+</p>
 
-    .card{
-        width:90%;
-    }
+</footer>
 
-}
+
+
+</body>
+
+</html>
